@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="testStyling.css"> <!-- connecting to the css file -->
+    <link rel="stylesheet" href="main.css">
+
+    <title>NUSTEM - Forum - Search threads</title> <!-- page title -->
+    <!-- <link rel="icon" type="image/x-icon" href="images/favicon.png"> -->
+
+    <script src="localStorageHelper.js"></script>
+    <!-- <script src="forumStuff.js"></script> -->
+</head>
+<body>
+    <header>
+        <a href="https://nustem.uk/"><img src="images/logo.png" alt="NUSTEM Logo" id="logo"></img></a> <!-- page logo -->
+        <h1>My Forum</h1>
+        <nav class="header-right">
+            <a href="https://nustem.uk/">Home</a> <!-- link to the nustem home page -->
+            <a href="index.html">Gamefroot Resources</a> <!-- links to the gamefroot resources page -->
+            <a class="active" href="forum.html">Forum</a> <!-- links to the forum page -->
+        </nav>
+    </header>
+    <main>
+        <section id="threadsSearch">
+            <h2>Search threads</h2>
+            <textarea></textarea>
+            <button>Search</button>
+        </section>
+        <section id="threadsList">
+            <!-- script inserts thread here -->
+        </section>
+    </main>
+
+    <script src="searchThreads.js"></script>
+</body>

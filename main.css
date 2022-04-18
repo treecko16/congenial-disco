@@ -1,0 +1,31 @@
+:root {
+    padding: 0.5rem;
+    --pq: 0.5rem; /* The "padding quanta": smallest padding I want to use */
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.comment-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#comments-list {
+    margin: 0 1rem;
+    padding: 0 1rem 1rem 1rem; 
+
+    background-color: hsla(0.5turn, 50%, 80%, 80%);
+}
+
+.comment-content {
+    padding-left: 0.5rem;
+}
+
+.comment-content::before {
+    content: '>';
+}
